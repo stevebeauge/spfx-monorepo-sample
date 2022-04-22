@@ -8,6 +8,8 @@
     "skipLibCheck": true,
     "declaration": true,
     "incremental": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "composite": true
   }
 }
