@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "monorepo-webpart-1",
+    "libraryId": "05b0844c-3c02-42ee-874c-5b02e0aac1f9",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "@monorepo/webpart1",
+    "solutionShortDescription": "@monorepo/webpart1 description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

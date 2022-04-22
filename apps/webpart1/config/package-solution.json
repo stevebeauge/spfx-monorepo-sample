@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "monorepo-webpart-1-client-side-solution",
+    "id": "05b0844c-3c02-42ee-874c-5b02e0aac1f9",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "@monorepo/webpart1 description"
+      },
+      "longDescription": {
+        "default": "@monorepo/webpart1 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "monorepo-webpart-1 Feature",
+        "description": "The feature that activates elements of the monorepo-webpart-1 solution.",
+        "id": "d2ecf0cf-434b-492f-ac1e-10ebb912e5b7",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/monorepo-webpart-1.sppkg"
+  }
+}
