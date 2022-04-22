@@ -16,7 +16,7 @@ const Calculator = () => {
 
     return (
         <Stack>
-            <TextField onChange={(evt, newVal) => onChange(newVal || '')} type="n" />
+            <TextField onChange={(evt, newVal) => onChange(newVal || '')} placeholder="Enter a number" />
             <Label>{doubleValue}</Label>
         </Stack>
     );
