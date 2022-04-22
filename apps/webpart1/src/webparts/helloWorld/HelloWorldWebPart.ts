@@ -29,14 +29,7 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
 
   public render(): void {
     const element: React.ReactElement<IHelloWorldProps> = React.createElement(
-      HelloWorld,
-      {
-        description: this.properties.description,
-        isDarkTheme: this._isDarkTheme,
-        environmentMessage: this._environmentMessage,
-        hasTeamsContext: !!this.context.sdks.microsoftTeams,
-        userDisplayName: this.context.pageContext.user.displayName
-      }
+      HelloWorld
     );
 
     ReactDom.render(element, this.domElement);
