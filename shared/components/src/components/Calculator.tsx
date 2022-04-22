@@ -1,5 +1,5 @@
 import React from 'react';
-import { Double } from '@monorepo/shared-utils/src'
+import { Double } from '@monorepo/shared-utils';
 import { Label, Stack, TextField } from 'office-ui-fabric-react';
 
 const Calculator = () => {

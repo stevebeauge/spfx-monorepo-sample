@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Calculator } from '@monorepo/shared-components/dist';
+import { Calculator } from '@monorepo/shared-components';
 
 const HelloWorld = () => {
   return (
