@@ -6,11 +6,13 @@
   "typings": "./lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build" : "tsc -build -i"
+    "build" : "tsc -build -i",
+    "clean" : "rimraf ./lib tsconfig.tsbuildinfo",
+    "prepare": "tsc -build -i"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "typescript": "^4.6.3"
   }
 }
