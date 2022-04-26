@@ -36,10 +36,13 @@
   ],
   "references": [
     {
+      "path": "../../shared/utils"
+    },
+    {
       "path": "../../shared/components"
     },
     {
-      "path": "../../shared/utils"
+      "path": "../../shared/spfx-components"
     }
   ]
 }

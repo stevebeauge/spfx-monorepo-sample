@@ -1,7 +1,7 @@
 {
   "@microsoft/generator-sharepoint": {
     "plusBeta": false,
-    "isCreatingSolution": true,
+    "isCreatingSolution": false,
     "version": "1.14.0",
     "libraryName": "monorepo-webpart-1",
     "libraryId": "05b0844c-3c02-42ee-874c-5b02e0aac1f9",
