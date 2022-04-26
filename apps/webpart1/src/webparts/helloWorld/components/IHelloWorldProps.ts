@@ -1,7 +1,4 @@
+import { BaseComponentContext } from '@microsoft/sp-component-base';
 export interface IHelloWorldProps {
-  description: string;
-  isDarkTheme: boolean;
-  environmentMessage: string;
-  hasTeamsContext: boolean;
-  userDisplayName: string;
+  context: BaseComponentContext
 }

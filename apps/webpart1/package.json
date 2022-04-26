@@ -19,6 +19,7 @@
     "@microsoft/sp-webpart-base": "1.14.0",
     "@monorepo/shared-components": "workspace:^0.0.1",
     "@monorepo/shared-utils": "workspace:^0.0.1",
+    "@monorepo/spfx-components": "workspace:^0.0.1",
     "office-ui-fabric-react": "7.174.1",
     "react": "16.13.1",
     "react-dom": "16.13.1"

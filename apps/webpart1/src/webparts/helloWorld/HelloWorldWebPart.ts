@@ -29,7 +29,10 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
 
   public render(): void {
     const element: React.ReactElement<IHelloWorldProps> = React.createElement(
-      HelloWorld
+      HelloWorld,
+      {
+        context:this.context
+      }
     );
 
     ReactDom.render(element, this.domElement);
