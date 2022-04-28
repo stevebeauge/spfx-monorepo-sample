@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.67.0",
+  "pnpmVersion": "6.32.9",
+  "pnpmOptions": {
+    "useWorkspaces": true
+  },
+  "nodeSupportedVersionRange": ">=14.15.0 <15.0.0",
+  "projectFolderMinDepth": 2,
+  "projectFolderMaxDepth": 2,
+  "gitPolicy": {
+    "allowedEmailRegExps": [
+      "[^@]+@users\\.noreply\\.github\\.com",
+      "travis@example\\.org"
+    ],
+    "sampleEmail": "public-facing-email@users.noreply.github.com"
+  },
+  "repository": {
+    "url": "https://github.com/stevebeauge/spfx-monorepo-sample.git"
+  },
+  "projects": [
+    {
+      "packageName": "@monorepo/shared-utils",
+      "projectFolder": "shared/utils"
+    },
+    {
+      "packageName": "@monorepo/shared-components",
+      "projectFolder": "shared/components"
+    },
+    {
+      "packageName": "@monorepo/spfx-components",
+      "projectFolder": "shared/spfx-components"
+    },
+    {
+      "packageName": "@monorepo/monorepo-webpart-1",
+      "projectFolder": "apps/webpart1"
+    }
+  ]
+}
