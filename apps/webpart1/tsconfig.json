@@ -33,16 +33,5 @@
   "include": [
     "src/**/*.ts",
     "src/**/*.tsx"
-  ],
-  "references": [
-    {
-      "path": "../../shared/utils"
-    },
-    {
-      "path": "../../shared/components"
-    },
-    {
-      "path": "../../shared/spfx-components"
-    }
   ]
 }

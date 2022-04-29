@@ -14,10 +14,8 @@
     "inlineSources": false,
     "strictNullChecks": false,
     "noUnusedLocals": false,
-    "composite": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
-    "declarationMap": true,
     "rootDir": "./src",
     "typeRoots": [
       "./node_modules/@types",
