@@ -1,5 +1,5 @@
 import * as React from 'react';
-import strings from 'LocalizeTestWebPartStrings';
+import strings from 'SpfxComponentsStrings';
 import { Text } from '@microsoft/sp-core-library';
 import { BaseComponentContext } from '@microsoft/sp-component-base';
 import styles from './LocalizeTest.module.scss';

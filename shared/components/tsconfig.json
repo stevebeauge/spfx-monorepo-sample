@@ -6,10 +6,5 @@
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "./lib"
-  },
-  "references": [
-    {
-      "path": "../utils"
-    }
-  ]
+  }
 }

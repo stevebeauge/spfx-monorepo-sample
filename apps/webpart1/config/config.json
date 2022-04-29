@@ -19,10 +19,9 @@
       ]
     }
   },
-  "externals": {},
   "localizedResources": {
     "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js",
-    "LocalizeTestWebPartStrings": "./node_modules/@monorepo/spfx-components/lib/loc/{locale}.js",
+    "SpfxComponentsStrings": "./node_modules/@monorepo/spfx-components/lib/loc/{locale}.js",
     "AnotherPartWebPartStrings": "lib/webparts/anotherPart/loc/{locale}.js"
   }
 }

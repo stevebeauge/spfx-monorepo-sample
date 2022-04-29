@@ -14,10 +14,8 @@
     "inlineSources": false,
     "strictNullChecks": false,
     "noUnusedLocals": false,
-    "composite": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
-    "declarationMap": true,
     "rootDir": "./src",
     "typeRoots": [
       "./node_modules/@types",
@@ -33,7 +31,9 @@
       "es2015.promise"
     ],
     "paths": {
-      "@microsoft/sp-component-base" : [ "./node_modules/@microsoft/sp-component-base"]
+      "@microsoft/sp-component-base": [
+        "./node_modules/@microsoft/sp-component-base"
+      ]
     }
   },
   "include": [

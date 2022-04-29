@@ -1,8 +1,8 @@
-declare interface ILocalizeTestWebPartStrings {
+declare interface ISpfxComponentsStrings {
   GreetingsFormat: string;
 }
 
-declare module 'LocalizeTestWebPartStrings' {
-  const strings: ILocalizeTestWebPartStrings;
+declare module 'SpfxComponentsStrings' {
+  const strings: ISpfxComponentsStrings;
   export = strings;
 }

@@ -1,4 +1,7 @@
 {
+    "scripts": {
+        "dev": "pnpm run dev -r --parallel --stream"
+    },
     "devDependencies": {
         "rimraf": "*"
     }

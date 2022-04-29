@@ -1,0 +1,30 @@
+{
+    "favorites.groups": [
+        "Default",
+        "package.json"
+    ],
+    "favorites.currentGroup": "package.json",
+    "favorites.resources": [
+        {
+            "filePath": "apps\\webpart1\\package.json",
+            "group": "package.json"
+        },
+        {
+            "filePath": "shared\\components\\package.json",
+            "group": "package.json"
+        },
+        {
+            "filePath": "shared\\utils\\package.json",
+            "group": "package.json"
+        },
+        {
+            "filePath": "package.json",
+            "group": "package.json"
+        },
+        {
+            "filePath": "shared\\spfx-components\\package.json",
+            "group": "package.json"
+        }
+    ],
+    "favorites.sortOrder": "DESC"
+}
