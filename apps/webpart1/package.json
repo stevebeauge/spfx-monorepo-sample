@@ -7,8 +7,8 @@
     "build": "gulp bundle",
     "clean": "gulp clean",
     "test": "gulp test",
-    "serve": "gulp bundle --custom-serve --max_old_space_size=4096 && fast-serve",
-    "serve:classic" : "gulp serve"
+    "serve": "gulp bundle --custom-serve --max_old_space_size=4096 && fast-serve --nobrowser",
+    "watch" : "gulp bundle"
   },
   "dependencies": {
     "@microsoft/sp-component-base": "^1.14.0",

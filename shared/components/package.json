@@ -6,9 +6,9 @@
   "typings": "./lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc -build -i",
+    "build": "tsc -build",
     "clean": "rimraf ./lib tsconfig.tsbuildinfo",
-    "prepare": "tsc -build -i"
+    "watch": "tsc -b -i"
   },
   "author": "",
   "license": "ISC",
