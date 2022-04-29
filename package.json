@@ -1,5 +1,9 @@
 {
+    "scripts": {
+        "dev": "turbo run dev"
+    },
     "devDependencies": {
-        "rimraf": "*"
+        "rimraf": "*",
+        "turbo": "^1.2.5"
     }
 }

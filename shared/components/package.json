@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -build -i",
     "clean": "rimraf ./lib tsconfig.tsbuildinfo",
-    "prepare": "tsc -build -i"
+    "dev": "tsc -w -i --preserveWatchOutput"
   },
   "author": "",
   "license": "ISC",
