@@ -15,6 +15,18 @@ const transformConfig = function (initialWebpackConfig) {
   // transform the initial webpack config here, i.e.
   // initialWebpackConfig.plugins.push(new webpack.Plugin()); etc.
 
+  initialWebpackConfig.plugins.forEach(plugin => {
+    if(plugin.constructor.name === 'ForkTsCheckerWebpackPlugin') {
+      //console.log(plugin);
+      plugin.options.typescript = {
+        build: true
+      }
+    }
+  });
+
+  const tsRuleOptions = initialWebpackConfig.module.rules[0].use[0].options;
+  tsRuleOptions.projectReferences = true;
+
   return initialWebpackConfig;
 }
 
