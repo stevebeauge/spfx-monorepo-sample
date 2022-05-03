@@ -6,8 +6,10 @@ import styles from './LocalizeTest.module.scss';
 
 const LocalizeTest = (props: { context: BaseComponentContext }) => {
     const welcomeMessage = Text.format(strings.GreetingsFormat, props.context.pageContext.user.displayName);
-    return (
-        <h2 className={styles.message}>{welcomeMessage}</h2>
+    return (<>
+        <h1 className={styles.message}>{welcomeMessage}</h1>
+        
+    </>
     );
 };
 

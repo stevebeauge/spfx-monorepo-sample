@@ -1,5 +1,7 @@
 .LocalizeTest{
     .message {
         font-size: x-large;
+        color:"[theme: themePrimary, default: red]";
+        border: solid 1px pink;
     }
 }

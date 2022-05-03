@@ -7,6 +7,7 @@
     "build": "gulp bundle",
     "clean": "gulp clean",
     "test": "gulp test",
+    "serve:old":"gulp serve",
     "dev": "gulp bundle --custom-serve --max_old_space_size=4096 && fast-serve --nobrowser"
   },
   "dependencies": {},
@@ -29,7 +30,7 @@
     "react-dom": "16.13.1",
     "ajv": "~5.2.5",
     "gulp": "~4.0.2",
-    "spfx-fast-serve-helpers": "~1.14.0"
+    "spfx-fast-serve-helpers": "~1.14.7"
   },
   "peerDependencies": {
     "@microsoft/sp-component-base": "1.14.0",
