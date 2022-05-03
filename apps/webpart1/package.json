@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "gulp bundle",
+    "serve:old": "gulp serve",
     "clean": "gulp clean",
     "test": "gulp test",
     "serve": "gulp bundle --custom-serve --max_old_space_size=4096 && fast-serve"
@@ -34,7 +35,7 @@
     "ajv": "~5.2.5",
     "eslint": "^7.32.0",
     "gulp": "~4.0.2",
-    "spfx-fast-serve-helpers": "~1.14.5",
-    "typescript": "^4.6.3"
+    "spfx-fast-serve-helpers": "~1.14.7",
+    "typescript": "^4.6.4"
   }
 }

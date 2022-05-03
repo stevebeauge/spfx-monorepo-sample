@@ -11,4 +11,4 @@ const LocalizeTest = (props: { context: BaseComponentContext }) => {
     );
 };
 
-export default LocalizeTest;
+export { LocalizeTest };

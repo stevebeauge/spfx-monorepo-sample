@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { Calculator } from '@monorepo/shared-components';
-import LocalizeTest from '@monorepo/spfx-components/lib/components/LocalizeTest';
+import { LocalizeTest } from '@monorepo/spfx-components';
 import { BaseComponentContext } from '@microsoft/sp-component-base';
 
 const HelloWorld = (props: { context: BaseComponentContext }) => {

@@ -28,7 +28,7 @@
       "es2015.collection",
       "es2015.promise"
     ],
-    "strict": true,
+    "strict": true
   },
   "include": [
     "src/**/*.ts",
